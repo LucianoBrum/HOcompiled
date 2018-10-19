@@ -11,6 +11,7 @@
 2. lo que contiene calculator.h, que, al no estar todavía definido, a su vez incluye <stdio.h>
 
 3. tengo dos funciones: main y add_numbers
+
 main:
 .LFB0:
 	.cfi_startproc
