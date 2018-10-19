@@ -1,0 +1,9 @@
+editar ambos archivos .c para cambiar el nombre de la funcion "sum_abs" a "sum_abs_"
+
+COMPILACION
+gcc -c c-sum.c  -o c-sum.o 
+gfortran -c f-main.f90 -o f-main.o 
+
+LINKEO
+gfortran  f-main.o c-sum.o -o f-main-e
+

@@ -1,0 +1,8 @@
+editar c-main.c y c-sum.h para cambiar "sum_abs" por "sum_abs_"
+
+COMPILAR
+gcc -c c-main.c -o c-main.o
+gfortran -c f-sum.f90 -o f-sum.o
+
+LINKEAR
+gcc c-main.o f-sum.o -o c-main.e
