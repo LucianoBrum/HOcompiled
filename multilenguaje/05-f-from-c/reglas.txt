@@ -1,4 +1,5 @@
 editar c-main.c y c-sum.h para cambiar "sum_abs" por "sum_abs_"
+hacer el archivo de c compatible editando las variables (NO SÉ BIEN QUE HICE PERO ANDUVO)
 
 COMPILAR
 gcc -c c-main.c -o c-main.o
